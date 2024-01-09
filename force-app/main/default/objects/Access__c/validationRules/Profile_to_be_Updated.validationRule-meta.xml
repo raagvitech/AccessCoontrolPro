@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Profile_to_be_Updated</fullName>
+    <active>true</active>
+    <description>Profile_to_be_Updated</description>
+    <errorConditionFormula>AND(Request_For_Profile__c,ISPICKVAL(Profile_to_Update__c, &apos;&apos;))</errorConditionFormula>
+    <errorMessage>Select Profile to be Updated</errorMessage>
+</ValidationRule>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Approved Deployment Email</name>
+    <style>none</style>
+    <subject>Access Approved</subject>
+    <textOnly>RaagviTech Company
+
+Dear {!Access__c.OwnerFullName},
+Your Request for the profile : &quot; {!Access__c.Profile_to_Update__c} &quot; and Permission set &quot;{!Access__c.Permission_to_Update__c}&quot; are Approved.
+
+I am pleased to inform you that the deployment has been approved.
+
+Note: The Access is going to revoke on {!Access__c.Access_Expire_Date__c} at  {!Access__c.Access_Expire_Time__c}.
+Thank you,
+RaagviTech Company
+
+Copyright 2023, All rights reserved.
+Our mailing address:
+RaagviTech Company
+Kudlu Gate, Hosur Road.
+Bengaluru, India 590 006</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

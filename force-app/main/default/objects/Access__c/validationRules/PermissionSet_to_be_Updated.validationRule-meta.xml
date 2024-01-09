@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PermissionSet_to_be_Updated</fullName>
+    <active>true</active>
+    <description>PermissionSet_to_be_Updated</description>
+    <errorConditionFormula>AND( Request_For_Permission_Set__c ,ISPICKVAL( Permission_to_Update__c , &apos;&apos;))</errorConditionFormula>
+    <errorMessage>Select Permission Set to update</errorMessage>
+</ValidationRule>

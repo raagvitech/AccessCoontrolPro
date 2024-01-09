@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Rejected Deployment Email Template</name>
+    <style>none</style>
+    <subject>Access Rejected</subject>
+    <textOnly>Rejected Company
+
+Dear {!Access__c.OwnerFullName},
+Your Request for the profile &quot;{!Access__c.Profile_to_Update__c}&quot; and Permission set &quot;{!Access__c.isPermissionSet__c}&quot; are Rejected.
+
+For more information, contact us at cloudavengersraagvitech@gmail.com.
+Thank you,
+RaagviTech Company
+
+Copyright 2023, All rights reserved.
+Our mailing address:
+RaagviTech Company
+Kudlu Gate, Hosur Road.
+Bengaluru, India 590 006</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

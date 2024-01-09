@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Permission_to_Update__c</fullName>
+    <externalId>false</externalId>
+    <label>Permission to Update</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Request_For_Permission_Set__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Buyer</fullName>
+                <default>false</default>
+                <label>Buyer</label>
+            </value>
+            <value>
+                <fullName>Buyer Manager</fullName>
+                <default>false</default>
+                <label>Buyer Manager</label>
+            </value>
+            <value>
+                <fullName>C360 High Scale Flow Integration User</fullName>
+                <default>false</default>
+                <label>C360 High Scale Flow Integration User</label>
+            </value>
+            <value>
+                <fullName>Commerce Admin</fullName>
+                <default>false</default>
+                <label>Commerce Admin</label>
+            </value>
+            <value>
+                <fullName>Contact Center Admin</fullName>
+                <default>false</default>
+                <label>Contact Center Admin</label>
+            </value>
+            <value>
+                <fullName>Contact Center Agent</fullName>
+                <default>false</default>
+                <label>Contact Center Agent</label>
+            </value>
+            <value>
+                <fullName>Contact Center Supervisor</fullName>
+                <default>false</default>
+                <label>Contact Center Supervisor</label>
+            </value>
+            <value>
+                <fullName>CRM User</fullName>
+                <default>false</default>
+                <label>CRM User</label>
+            </value>
+            <value>
+                <fullName>Experience Profile Manager</fullName>
+                <default>false</default>
+                <label>Experience Profile Manager</label>
+            </value>
+            <value>
+                <fullName>Facility Manager</fullName>
+                <default>false</default>
+                <label>Facility Manager</label>
+            </value>
+            <value>
+                <fullName>FieldServiceMobile StandardPermSet</fullName>
+                <default>false</default>
+                <label>FieldServiceMobile StandardPermSet</label>
+            </value>
+            <value>
+                <fullName>Merchandiser</fullName>
+                <default>false</default>
+                <label>Merchandiser</label>
+            </value>
+            <value>
+                <fullName>Order Management Agent</fullName>
+                <default>false</default>
+                <label>Order Management Agent</label>
+            </value>
+            <value>
+                <fullName>Order Management Operations Manager</fullName>
+                <default>false</default>
+                <label>Order Management Operations Manager</label>
+            </value>
+            <value>
+                <fullName>Order Management Shopper</fullName>
+                <default>false</default>
+                <label>Order Management Shopper</label>
+            </value>
+            <value>
+                <fullName>Order Management Store Associate</fullName>
+                <default>false</default>
+                <label>Order Management Store Associate</label>
+            </value>
+            <value>
+                <fullName>Queue Manager</fullName>
+                <default>false</default>
+                <label>Queue Manager</label>
+            </value>
+            <value>
+                <fullName>Sales Cloud User</fullName>
+                <default>false</default>
+                <label>Sales Cloud User</label>
+            </value>
+            <value>
+                <fullName>Sales Engagement Basic User</fullName>
+                <default>false</default>
+                <label>Sales Engagement Basic User</label>
+            </value>
+            <value>
+                <fullName>Salesforce Apex Guru</fullName>
+                <default>false</default>
+                <label>Salesforce Apex Guru</label>
+            </value>
+            <value>
+                <fullName>Salesforce CMS Integration Admin</fullName>
+                <default>false</default>
+                <label>Salesforce CMS Integration Admin</label>
+            </value>
+            <value>
+                <fullName>Salesforce Console User</fullName>
+                <default>false</default>
+                <label>Salesforce Console User</label>
+            </value>
+            <value>
+                <fullName>SCRT2 Integration User</fullName>
+                <default>false</default>
+                <label>SCRT2 Integration User</label>
+            </value>
+            <value>
+                <fullName>Seas Indexing C2C User Perm</fullName>
+                <default>false</default>
+                <label>Seas Indexing C2C User Perm</label>
+            </value>
+            <value>
+                <fullName>Security Center Integration User</fullName>
+                <default>false</default>
+                <label>Security Center Integration User</label>
+            </value>
+            <value>
+                <fullName>Service Cloud User</fullName>
+                <default>false</default>
+                <label>Service Cloud User</label>
+            </value>
+            <value>
+                <fullName>Shopper</fullName>
+                <default>false</default>
+                <label>Shopper</label>
+            </value>
+            <value>
+                <fullName>Slack Service User</fullName>
+                <default>false</default>
+                <label>Slack Service User</label>
+            </value>
+            <value>
+                <fullName>Standard Einstein Activity Capture</fullName>
+                <default>false</default>
+                <label>Standard Einstein Activity Capture</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Buyer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Buyer Manager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>C360 High Scale Flow Integration User</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Commerce Admin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Contact Center Admin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Contact Center Agent</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Contact Center Supervisor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>CRM User</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Experience Profile Manager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Facility Manager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>FieldServiceMobile StandardPermSet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Merchandiser</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Order Management Agent</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Order Management Operations Manager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Order Management Shopper</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Order Management Store Associate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Queue Manager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Sales Cloud User</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Sales Engagement Basic User</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Salesforce Apex Guru</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Salesforce CMS Integration Admin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Salesforce Console User</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>SCRT2 Integration User</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Seas Indexing C2C User Perm</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Security Center Integration User</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Service Cloud User</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Shopper</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Slack Service User</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Standard Einstein Activity Capture</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>
